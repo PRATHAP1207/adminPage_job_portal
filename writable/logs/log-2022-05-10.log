@@ -1,0 +1,255 @@
+CRITICAL - 2022-05-10 01:12:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('added', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:16:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('onemore', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:19:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('Maximum', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:20:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('Allow', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:20:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('Allow', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:20:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('qwerty', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 01:21:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(372): App\Models\Common_model->updateCategory('qwerty1', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->updateCategory()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-10 04:54:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 04:54:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 04:54:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 04:54:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '1')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 04:59:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 04:59:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '1')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:04:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 05:04:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '1')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+CRITICAL - 2022-05-10 05:05:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's to be utilized by front side engineers and UX designers. The day to day con...' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('A Back End Engi...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:06:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+CRITICAL - 2022-05-10 05:06:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('You can even be...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:07:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+CRITICAL - 2022-05-10 05:07:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('You can even be...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 05:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+CRITICAL - 2022-05-10 05:12:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's yours.. Join us')' at line 1
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(121): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...')
+#4 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(93): App\Models\Common_model->updateRecords('Do not let the ...', '3')
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 06:27:38 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(82): App\Models\Common_model->getRecords('categories')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-10 07:26:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(324): CodeIgniter\Model->__call('newJobDescripti...', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-10 07:28:01 --> Column 'created_by' cannot be null
+CRITICAL - 2022-05-10 07:28:01 --> Column 'created_by' cannot be null
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(324): App\Models\Common_model->insertRecord('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-10 07:28:40 --> Column 'created_by' cannot be null
+CRITICAL - 2022-05-10 07:28:40 --> Column 'created_by' cannot be null
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(324): App\Models\Common_model->insertRecord('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-10 08:14:21 --> Undefined variable $str
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\AddJobView.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 248)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/A...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/A...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(85): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-10 08:17:10 --> Undefined variable $str
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\AddJobView.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 283)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/A...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/A...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(85): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-10 08:30:14 --> Table 'job_portal.userdetails' doesn't exist
+CRITICAL - 2022-05-10 08:30:14 --> Table 'job_portal.userdetails' doesn't exist
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdet...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdet...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdet...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `userdet...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(56): App\Models\Common_model->updateRecord('userdetails', Array, Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->logout()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

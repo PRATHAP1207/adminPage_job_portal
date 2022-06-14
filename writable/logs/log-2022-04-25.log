@@ -1,0 +1,502 @@
+CRITICAL - 2022-04-25 04:25:54 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(42): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:27:16 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(42): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:27:56 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(43): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:28:02 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(43): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:29:34 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(43): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:37:59 --> Undefined property: stdClass::$userName
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 04:42:29 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(43): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:44:16 --> Invalid file: login/loginpage.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/loginpage...')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('login/loginpage', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(43): view('login/loginpage', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 04:47:02 --> Invalid file: Login.php
+#0 C:\xampp\htdocs\adminPanel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login.php')
+#1 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('Login', Array, true)
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Login.php(45): view('Login', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 05:32:02 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\adminPanel\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Login/loginPag...')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/Login/loginPag...')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 05:40:54 --> Undefined variable $result
+#0 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\sidemenu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/s...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(3): view('BasicTemplate/s...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Dashboard.php(10): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-25 07:41:40 --> Undefined constant "App\Controllers\console"
+#0 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 07:46:44 --> Undefined variable $JobDesc
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\JobList.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/J...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/J...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(18): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->joblist()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-25 07:49:19 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 07:49:24 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 08:14:15 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 08:14:18 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 08:14:22 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 08:36:02 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-25 08:52:47 --> Undefined property: stdClass::$city
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\JobList.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/J...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/J...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(18): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->joblist()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-25 08:54:22 --> Undefined property: stdClass::$country
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\JobList.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/J...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/J...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(18): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->joblist()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-25 11:54:18 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 11:55:48 --> Array to string conversion
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 12:00:36 --> Undefined property: stdClass::$description
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 12:02:42 --> Attempt to read property "description" on array
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->getSingleJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 13:10:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(188): CodeIgniter\Model->__call('getRecords', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 13:10:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(188): CodeIgniter\Model->__call('getRecords', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 13:12:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(188): CodeIgniter\Model->__call('getRecords', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 13:13:54 --> print_r(): Argument #2 ($return) must be of type bool, array given
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(87): print_r('jobs', Array)
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(187): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:14:06 --> print_r(): Argument #2 ($return) must be of type bool, array given
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(87): print_r('jobs', Array)
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(187): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:14:08 --> print_r(): Argument #2 ($return) must be of type bool, array given
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(87): print_r('jobs', Array)
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(187): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:18:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): CodeIgniter\Model->__call('getRecords', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 13:20:12 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:21:14 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:22:03 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:23:09 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:23:56 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:30:16 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:32:24 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(190): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:32:49 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(190): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:34:30 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:34:33 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 13:34:38 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(189): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:20:10 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:20:22 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:20:37 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:22:13 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:22:22 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:22:29 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:23:22 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:23:52 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(245): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 14:49:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\adminPanel\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\adminPanel\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(81): CodeIgniter\Model->__call('updateRecords', Array)
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 14:50:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(81): App\Models\Common_model->updateRecords(NULL, NULL)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:15:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('maximum', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:16:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('maximum', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:17:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('hello All', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:19:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('welcome', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:20:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('dvbnmghfgddfsgh', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:22:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('oilkuyjhg', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:22:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('fbfgnghnghngh', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 23:23:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(90): App\Models\Common_model->updateRecords('jygnbfvxc ', '1')
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,39 @@
+CRITICAL - 2022-05-20 07:33:19 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(15): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 23:26:17 --> Array to string conversion
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 23:30:00 --> Array to string conversion
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 23:34:04 --> Array to string conversion
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 23:59:44 --> openssl_encrypt(): IV passed is only 10 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(64): openssl_encrypt('E7YSLPYH2WBGPVN...', 'AES-128-CTR', 'demo', 0, '9164225596')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

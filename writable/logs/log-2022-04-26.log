@@ -1,0 +1,106 @@
+CRITICAL - 2022-04-26 00:30:33 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(279): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 00:49:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(279): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 00:54:36 --> Undefined variable $data
+#0 C:\xampp\htdocs\adminPanel\app\Views\AdminPageView\AddJobView.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('AdminPageView/A...', Array, true)
+#4 C:\xampp\htdocs\adminPanel\app\Views\BasicTemplate\content.php(4): view('AdminPageView/A...')
+#5 C:\xampp\htdocs\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('BasicTemplate/c...', Array, true)
+#8 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(85): view('BasicTemplate/c...', Array)
+#9 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJob()
+#10 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#11 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-26 01:24:54 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+CRITICAL - 2022-04-26 01:24:54 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(297): App\Models\Common_model->newJobDescription('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-26 01:25:50 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+CRITICAL - 2022-04-26 01:25:50 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(297): App\Models\Common_model->newJobDescription('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-26 01:28:33 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+CRITICAL - 2022-04-26 01:28:33 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(297): App\Models\Common_model->newJobDescription('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-26 01:58:10 --> Undefined array key "education"
+#0 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 292)
+#1 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 02:00:19 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+CRITICAL - 2022-04-26 02:00:19 --> CONSTRAINT `jobs.experience` failed for `job_portal`.`jobs`
+#0 C:\xampp\htdocs\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(319): App\Models\Common_model->newJobDescription('jobs', Array)
+#6 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addNewJobDescription()
+#7 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-26 02:05:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(279): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 06:45:58 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\adminPanel\app\Models\Common_model.php on line 22
+#0 C:\xampp\htdocs\adminPanel\app\Models\Common_model.php(22): CodeIgniter\Database\BaseBuilder->get('*')
+#1 C:\xampp\htdocs\adminPanel\app\Controllers\Adminpage.php(280): App\Models\Common_model->getRecords('jobs', '*')
+#2 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->recordChange()
+#3 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#4 C:\xampp\htdocs\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

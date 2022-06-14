@@ -1,0 +1,133 @@
+ERROR - 2022-05-12 00:27:00 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-12 00:27:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(19): App\Models\Common_model->getLoginRecord('login_user', '*', Array)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->loginPage()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-12 00:27:50 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\BaseController.php(55): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 00:28:56 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\BaseController.php(55): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-12 04:29:55 --> Column 'description' cannot be null
+CRITICAL - 2022-05-12 04:29:55 --> Column 'description' cannot be null
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(100): App\Models\Common_model->insertRecord('requirement_det...', Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 05:29:24 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-12 05:29:24 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `jobs` S...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobs` S...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobs` S...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `jobs` S...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(102): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 05:29:52 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-12 05:29:52 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `jobs` S...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobs` S...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobs` S...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `jobs` S...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(102): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 05:30:20 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-12 05:30:20 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `jobs` S...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobs` S...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobs` S...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `jobs` S...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(102): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 05:31:43 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-12 05:31:43 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `jobs` S...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobs` S...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobs` S...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `jobs` S...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(102): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-12 05:32:02 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-12 05:32:02 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `jobs` S...', 0)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobs` S...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobs` S...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `jobs` S...', Array, false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Models\Common_model.php(49): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(102): App\Models\Common_model->updateRecord('jobs', Array, Array)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->addJobDetails()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-12 07:35:12 --> Undefined property: App\Controllers\Adminpage::$uri
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 398)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->deleteRecords()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-12 07:39:28 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(398): redirect('/jobs.samug.com...', 'refresh')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->deleteRecords()
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 07:39:34 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Adminpage.php(398): redirect('/jobs.samug.com...', 'refresh')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Adminpage->deleteRecords()
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminpage))
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,52 @@
+CRITICAL - 2022-05-19 07:03:33 --> Undefined variable $qr_code
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\GoogleAuthentication.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('GoogleAuthentic...', Array, true)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(52): view('GoogleAuthentic...')
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->GoogleAuthentication()
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 07:04:05 --> Undefined variable $error_message
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\GoogleAuthentication.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('GoogleAuthentic...', Array, true)
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(52): view('GoogleAuthentic...')
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->GoogleAuthentication()
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 07:57:58 --> include_once(C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views/../../vendor/src/FixedBitNotation.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\LoginView.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\LoginView.php(3): include_once()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('LoginView', Array, true)
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(9): view('LoginView')
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 07:58:06 --> include_once(C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views/../../vendor/src/FixedBitNotation.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\LoginView.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Views\LoginView.php(3): include_once()
+#2 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\Common.php(1089): CodeIgniter\View\View->render('LoginView', Array, true)
+#5 C:\xampp\htdocs\jobs.samug.com\adminPanel\app\Controllers\Login.php(9): view('LoginView')
+#6 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\jobs.samug.com\adminPanel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jobs.samug.com\adminPanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 08:17:48 --> strict_types declaration must be the very first statement in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-19 08:18:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
